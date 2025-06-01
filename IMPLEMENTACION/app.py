@@ -5,7 +5,7 @@ import joblib
 from io import BytesIO
 
 
-modelo = joblib.load("modelo_xgboost.pkl")
+modelo = joblib.load("IMPLEMENTACION/modelo_xgboost.pkl")
 
 #Creamos un diccionario para cambiar las predicciones a palabras
 classes = {0:"Baja", 1:"Media", 2:"Alta"}
