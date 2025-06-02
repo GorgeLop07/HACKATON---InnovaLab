@@ -39,6 +39,8 @@ if modo == "Ingreso manual":
         entrada = np.array([[year, selling_price, transmission, potencia_motor_hp, nivel_seguridad, score_calidad, eficiencia_km_l]])
         pred = modelo.predict(entrada)
         st.success(f"Calidad predicha: {classes[int(pred[0])]}")
+        
+#---------------------------CREAMOS EL MODO 2 --------------------------------
 
 else:
     st.subheader("Cargar archivo Excel para clasificación masiva")
