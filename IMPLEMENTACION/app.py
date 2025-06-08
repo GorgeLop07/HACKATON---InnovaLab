@@ -82,4 +82,4 @@ else:
             st.error("El archivo debe contener las columnas necesarias:")
             st.code(", ".join(columnas_necesarias))
     else:
-        st.warning("Agrega un Archivoo")
+        st.warning("Agrega un Archivo")
